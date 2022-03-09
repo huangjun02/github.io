@@ -1,0 +1,25 @@
+* {
+    color: #fff;
+}
+header {
+    background-color: blue;
+}
+.flex-box {
+    display: flex;
+}
+.flex-center {
+    background-color: purple;
+    flex-grow: 1;
+}
+.flex-left {
+    background-color: red;
+    order: -1;
+    flex: 0 0 100px;
+}
+.flex-right {
+    background-color: green;
+    flex: 0 0 100px;
+}
+footer {
+    background-color: pink;
+}
