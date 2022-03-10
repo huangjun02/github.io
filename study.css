@@ -1,25 +1,40 @@
-* {
-    color: #fff;
+a:hover{color: green;}
+html, 
+body{1display: flex;flex-direction: column;background:linear-gradient(91deg,#f1eefc,#9dc6ff 70%,#a5bcff)}
+main{display: flex;flex: auto；}
+aside{flex:1;background-image:url('https://z3.ax1x.com/2021/06/19/RPPxUJ.gif');
+       background-position:center;
+       background-size: cover;
+       color:#00FFFF;border: 2px solid black;}
+article{flex:3;border: 2px solid black}
+h1{justify-content: flex-start;align-items:flex-start;font-family: 'Brush Script MT', cursive;font-size:40px;
+line-height:40px;}
+header{display: flex;background-image:url('https://z3.ax1x.com/2021/06/19/RPCIl6.jpg');
+       background-position:center;
+       background-size: cover;
+       justify-content：flex-start;
+        border: 2px solid black;}
+footer{display: flex;border: 2px solid black;background:#E6E6FA;font-style:italic;
+font-weight:bold;
+font-size:35px;
+line-height:35px;
+font-family:"SimHei";justify-content: center;align-items:center;} 
+.box{
+    float: left;
+    width: 160px;
+    transition: all 0.5s;
+    border: 1px solid #fff; #边框
+    box-shadow: -5px 0px 10px 0px #000; #阴影
+    position: relative;
 }
-header {
-    background-color: blue;
-}
-.flex-box {
-    display: flex;
-}
-.flex-center {
-    background-color: purple;
-    flex-grow: 1;
-}
-.flex-left {
-    background-color: red;
-    order: -1;
-    flex: 0 0 100px;
-}
-.flex-right {
-    background-color: green;
-    flex: 0 0 100px;
-}
-footer {
-    background-color: pink;
-}
+.wap{
+    width: 999999999px;
+    overflow: hidden;
+  }
+  .show{
+    width: 800px;
+    height: 320px;
+    overflow: hidden;
+    margin: 200px auto;
+    box-shadow: 5px 5px 10px 4px #000;
+  }
